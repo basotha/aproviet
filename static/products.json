@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "category": "gia-vi",
+        "name_vi": "Gừng Tươi Sơ Chế",
+        "name_en": "Fresh Processed Ginger",
+        "name_zh": "初加工生姜",
+        "description_vi": "Gừng già đủ tuổi, làm sạch...",
+        "description_en": "Mature ginger, washed...",
+        "description_zh": "老姜，清洗干净...",
+        "price_vi": "Hàng xuất khẩu / Sỉ số lượng lớn",
+        "price_en": "Export / Wholesale bulk volume",
+        "price_zh": "大宗出口/批发",
+        "image": "https://docs.google.com/uc?export=download&id=1bIRJ5C89IizbqpavF3OM_FraV5eWoHXM"
+    },
+    {
+        "id": 2,
+        "category": "cu-qua",
+        "name_vi": "Cà Rốt Hải Dương",
+        "name_en": "Hai Duong Carrots",
+        "name_zh": "海阳胡萝卜",
+        "description_vi": "Cà rốt tươi ngọt bọc màng...",
+        "description_en": "Sweet fresh carrots...",
+        "description_zh": "鲜甜胡萝卜...",
+        "price_vi": "Hàng xuất khẩu / Sỉ số lượng lớn",
+        "price_en": "Export / Wholesale bulk volume",
+        "price_zh": "大宗出口/批发",
+        "image": "https://docs.google.com/uc?export=download&id=1ImsUZL8W5A7wIV1M35uQnjsS6KKlwL9w"
+    },
+    {
+        "id": 3,
+        "category": "trai-cay",
+        "name_vi": "Ổi",
+        "name_en": NaN,
+        "name_zh": NaN,
+        "description_vi": NaN,
+        "description_en": NaN,
+        "description_zh": NaN,
+        "price_vi": "Hàng xuất khẩu / Sỉ số lượng lớn",
+        "price_en": "Export / Wholesale bulk volume",
+        "price_zh": "大宗出口/批发",
+        "image": "https://docs.google.com/uc?export=download&id=14NeU28SdSe_hptitwcpMfEJY4DYNl9Kc"
+    }
+]
