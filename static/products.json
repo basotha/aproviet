@@ -1,5 +1,4 @@
 [
-
     {
         "id": 1,
         "category": "gia-vi",
@@ -12,7 +11,7 @@
         "price_vi": "Hàng xuất khẩu / Sỉ số lượng lớn",
         "price_en": "Export / Wholesale bulk volume",
         "price_zh": "大宗出口/批发",
-        "image": "https://lh3.googleusercontent.com/d/1bIRJ5C89IizbqpavF3OM_FraV5eWoHXM"
+        "image": "https://docs.google.com/uc?export=download&id=1bIRJ5C89IizbqpavF3OM_FraV5eWoHXM"
     },
     {
         "id": 2,
@@ -26,17 +25,17 @@
         "price_vi": "Hàng xuất khẩu / Sỉ số lượng lớn",
         "price_en": "Export / Wholesale bulk volume",
         "price_zh": "大宗出口/批发",
-        "image": "https://lh3.googleusercontent.com/d/1ImsUZL8W5A7wIV1M35uQnjsS6KKlwL9w"
+        "image": "https://docs.google.com/uc?export=download&id=1ImsUZL8W5A7wIV1M35uQnjsS6KKlwL9w"
     },
     {
         "id": 3,
         "category": "trai-cay",
         "name_vi": "Ổi",
-        "name_en": NaN,
-        "name_zh": NaN,
-        "description_vi": NaN,
-        "description_en": NaN,
-        "description_zh": NaN,
+        "name_en": "Fresh guava",
+        "name_zh": "新鲜番石榴",
+        "description_vi": "Ổi tươi được sơ chế và tiệt trùng trước khi đóng gói",
+        "description_en": "Fresh guavas are pre-processed and sterilized before packaging.",
+        "description_zh": "新鲜番石榴在包装前会进行预处理和杀菌。",
         "price_vi": "Hàng xuất khẩu / Sỉ số lượng lớn",
         "price_en": "Export / Wholesale bulk volume",
         "price_zh": "大宗出口/批发",
