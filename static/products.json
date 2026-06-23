@@ -1,4 +1,5 @@
 [
+
     {
         "id": 1,
         "category": "gia-vi",
@@ -11,7 +12,7 @@
         "price_vi": "Hàng xuất khẩu / Sỉ số lượng lớn",
         "price_en": "Export / Wholesale bulk volume",
         "price_zh": "大宗出口/批发",
-        "image": "https://docs.google.com/uc?export=download&id=1bIRJ5C89IizbqpavF3OM_FraV5eWoHXM"
+        "image": "https://lh3.googleusercontent.com/d/1bIRJ5C89IizbqpavF3OM_FraV5eWoHXM"
     },
     {
         "id": 2,
@@ -25,7 +26,7 @@
         "price_vi": "Hàng xuất khẩu / Sỉ số lượng lớn",
         "price_en": "Export / Wholesale bulk volume",
         "price_zh": "大宗出口/批发",
-        "image": "https://docs.google.com/uc?export=download&id=1ImsUZL8W5A7wIV1M35uQnjsS6KKlwL9w"
+        "image": "https://lh3.googleusercontent.com/d/1ImsUZL8W5A7wIV1M35uQnjsS6KKlwL9w"
     },
     {
         "id": 3,
