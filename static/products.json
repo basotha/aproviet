@@ -54,5 +54,19 @@
         "price_en": "Export / Wholesale bulk volume",
         "price_ko": "大宗出口/批发",
         "image": "static/products/product_4.jpg"
+    },
+    {
+        "id": 5,
+        "category": "gia-vi",
+        "name_vi": "Ớt",
+        "name_en": "Chilli",
+        "name_ko": "고추",
+        "description_vi": "Ớt tươi và ớt sấy đạt chuẩn, số lượng lớn...",
+        "description_en": "Fresh and dried chili peppers of high quality, in large quantities...",
+        "description_ko": "신선하고 품질 좋은 고추와 건고추를 대량으로 공급합니다...",
+        "price_vi": "Hàng xuất khẩu / Sỉ số lượng lớn",
+        "price_en": "Export / Wholesale bulk volume",
+        "price_ko": "大宗出口/批发",
+        "image": "static/products/product_5.jpg"
     }
 ]
