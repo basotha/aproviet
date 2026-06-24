@@ -4,13 +4,13 @@
         "category": "gia-vi",
         "name_vi": "Gừng Tươi Sơ Chế",
         "name_en": "Fresh Processed Ginger",
-        "name_zh": "初加工生姜",
+        "name_ko": "신선한 생강 (가공 처리됨)",
         "description_vi": "Gừng già đủ tuổi, làm sạch...",
         "description_en": "Mature ginger, washed...",
-        "description_zh": "老姜，清洗干净...",
+        "description_ko": "잘 익은 생강을 깨끗이 씻은 것...",
         "price_vi": "Hàng xuất khẩu / Sỉ số lượng lớn",
         "price_en": "Export / Wholesale bulk volume",
-        "price_zh": "大宗出口/批发",
+        "price_ko": "수출 상품 / 대량 도매",
         "image": "static/products/product_1.jpg"
     },
     {
@@ -18,13 +18,13 @@
         "category": "cu-qua",
         "name_vi": "Cà Rốt Hải Dương",
         "name_en": "Hai Duong Carrots",
-        "name_zh": "海阳胡萝卜",
+        "name_ko": "당근",
         "description_vi": "Cà rốt tươi ngọt bọc màng...",
         "description_en": "Sweet fresh carrots...",
-        "description_zh": "鲜甜胡萝卜...",
+        "description_ko": "달콤하고 신선한 당근이 비닐랩으로 싸여 있다...",
         "price_vi": "Hàng xuất khẩu / Sỉ số lượng lớn",
         "price_en": "Export / Wholesale bulk volume",
-        "price_zh": "大宗出口/批发",
+        "price_ko": "大宗出口/批发",
         "image": "static/products/product_2.jpg"
     },
     {
@@ -32,13 +32,13 @@
         "category": "trai-cay",
         "name_vi": "Ổi",
         "name_en": "Fresh guava",
-        "name_zh": "新鲜番石榴",
+        "name_ko": "구아바",
         "description_vi": "Ổi tươi được sơ chế và tiệt trùng trước khi đóng gói",
         "description_en": "Fresh guavas are pre-processed and sterilized before packaging.",
-        "description_zh": "新鲜番石榴在包装前会进行预处理和杀菌。",
+        "description_ko": "신선한 구아바는 포장 전에 사전 가공 및 살균 처리됩니다.",
         "price_vi": "Hàng xuất khẩu / Sỉ số lượng lớn",
         "price_en": "Export / Wholesale bulk volume",
-        "price_zh": "大宗出口/批发",
+        "price_ko": "大宗出口/批发",
         "image": "static/products/product_3.jpg"
     },
     {
@@ -46,13 +46,13 @@
         "category": "trai-cay",
         "name_vi": "Chanh Dây",
         "name_en": "Passion fruit",
-        "name_zh": "百香果",
+        "name_ko": "열정 과일",
         "description_vi": "Chanh dây (chanh leo) là loại trái cây nhiệt đới thơm ngon, giàu vitamin.",
         "description_en": "Passion fruit is a delicious, vitamin-rich tropical fruit.",
-        "description_zh": "百香果是一种美味且富含维生素的热带水果。",
+        "description_ko": "패션프루트는 맛있고 비타민이 풍부한 열대 과일입니다.",
         "price_vi": "Hàng xuất khẩu / Sỉ số lượng lớn",
         "price_en": "Export / Wholesale bulk volume",
-        "price_zh": "大宗出口/批发",
+        "price_ko": "大宗出口/批发",
         "image": "static/products/product_4.jpg"
     }
 ]
