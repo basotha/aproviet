@@ -15,7 +15,6 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="APRO VIỆT NAM - Nông Sản Xuất Khẩu Chất Lượng Cao">
     <meta property="og:description" content="Chuyên cung cấp gừng, tỏi, ớt, cà rốt, khoai lang, chanh dây, ổi... số lượng lớn cho thị trường xuất khẩu Nhật Bản, Hàn Quốc, Dubai và nội địa.">
-    <meta property="og:type" content="website">  
     <meta property="og:image" content="https://aproviet.com/static/thumbnail.png"> 
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -51,8 +50,8 @@
                 <button onclick="changeLanguage('en')" class="lang-btn" title="English">
                     <img src="https://flagcdn.com/w40/us.png" alt="English">
                 </button>
-                <button onclick="changeLanguage('zh')" class="lang-btn" title="中文">
-                    <img src="https://flagcdn.com/w40/cn.png" alt="Chinese">
+                <button onclick="changeLanguage('ko')" class="lang-btn" title="한국어">
+                    <img src="https://flagcdn.com/w40/kr.png" alt="Korean">
                 </button>
             </div>
 
@@ -194,7 +193,7 @@
                 <h4 data-lang="foot_map_title">Vị Trí Trên Bản Đồ</h4>
                 <div class="map-container" style="width: 100%; height: 200px; border-radius: 8px; overflow: hidden; margin-top: 10px;">
                     <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3132.4630211825433!2d106.2587176965184!3d20.986731259310435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31359d00208cc619%3A0x90b8639a78908411!2zWMOzbSBW4bqhbiBD4bqpbSBWxINuIEPhuqltIEdpw6BuZyBI4bqjaSBExrDGoW5n!5e0!3m2!1svi!2s!4v1782259111437!5m2!1svi!2s" 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.12741870624!2d106.1834138!3d20.9875249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135a39a77b3df6d%3A0x6bde6052f7ad4287!2zQ-G6qW0gVsSDbiwgQ-G6q20gR2nDoG5nLCBI4bqjaSBExrDGoW5nLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1716000000000!5m2!1svi!2s" 
                         width="100%" 
                         height="100%" 
                         style="border:0;" 
@@ -206,7 +205,7 @@
             </div>
         </div>
         <div class="copyright">
-            <p data-lang="foot_copyright">&copy; 2026 APROVIET.COM. Bảo lưu mọi quyền thương hiệu nông sản xuất khẩu sạch.</p>
+            <p data-lang="foot_copyright">© 2026 APROVIET.COM. Bảo lưu mọi quyền thương hiệu nông sản xuất khẩu sạch.</p>
         </div>
     </footer>
 
@@ -223,12 +222,12 @@
                 })
                 .catch(err => {
                     console.error("Lỗi khi tải danh sách nông sản:", err);
-                    // Dữ liệu mẫu ban đầu hỗ trợ đa ngôn ngữ để test giao diện
+                    // Dữ liệu mẫu ban đầu hỗ trợ dịch thuật tiếng Hàn để test giao diện
                     productsData = [
-                        { id: 1, name_vi: "Gừng Tươi Sơ Chế", name_en: "Fresh Processed Ginger", name_zh: "初加工生姜", category: "gia-vi", price_vi: "Hàng xuất khẩu/Sỉ số lượng lớn", price_en: "Export / Wholesale bulk volume", price_zh: "大宗出口/批发", description_vi: "Gừng già đủ tuổi, làm sạch, phân loại đều, chuyên xuất khẩu Nhật Bản, Hàn Quốc.", description_en: "Mature ginger, thoroughly washed, evenly graded, specialized for Japan and Korea.", description_zh: "老姜，清洗干净，分级均匀，专供出口日本、韩国。", image: "https://placehold.co/400x300?text=Ginger+Apro" },
-                        { id: 2, name_vi: "Ớt Chỉ Thiên Đóng Thùng", name_en: "Chili Peppers in Foam Boxes", name_zh: "泡沫箱装指天椒", category: "gia-vi", price_vi: "Hàng xuất khẩu/Sỉ số lượng lớn", price_en: "Export / Wholesale bulk volume", price_zh: "大宗出口/批发", description_vi: "Ớt đỏ tươi, cay nồng, chọn lọc kỹ càng, đóng gói thùng xốp đi các nước châu Á.", description_en: "Bright red chili, intensely spicy, meticulously selected, packed in foam boxes for Asian markets.", description_zh: "鲜红指天椒，浓辣，严格挑选，泡沫箱包装运往亚洲各国。", image: "https://placehold.co/400x300?text=Chili+Apro" },
-                        { id: 3, name_vi: "Cà Rốt Hải Dương", name_en: "Hai Duong Carrots", name_zh: "海阳胡萝卜", category: "cu-qua", price_vi: "Hàng xuất khẩu/Sỉ số lượng lớn", price_en: "Export / Wholesale bulk volume", price_zh: "大宗出口/批发", description_vi: "Cà rốt tươi ngọt bọc màng hoặc đóng gói rổ lưới xuất khẩu, củ thuôn đẹp.", description_en: "Sweet fresh carrots wrapped in film or packed in export mesh baskets, perfectly shaped.", description_zh: "鲜甜胡萝卜，保鲜膜包裹或出口网筐包装，条形美观。", image: "https://placehold.co/400x300?text=Carrot+Apro" },
-                        { id: 4, name_vi: "Chanh Dây (Chanh Leo)", name_en: "Fresh Passion Fruit", name_zh: "新鲜百香果", category: "trai-cay", price_vi: "Hàng xuất khẩu/Sỉ số lượng lớn", price_en: "Export / Wholesale bulk volume", price_zh: "大宗出口/批发", description_vi: "Chanh dây vỏ láng bóng, dịch quả đặc thơm, cung ứng số lượng lớn đi Dubai, Quata.", description_en: "Glossy purple skin, thick and aromatic pulp, supplied in bulk to Dubai and Qatar.", description_zh: "百香果果皮光滑，果汁浓郁芳香，大量供应迪拜、卡塔尔。", image: "https://placehold.co/400x300?text=Passion+Fruit+Apro" }
+                        { id: 1, name_vi: "Gừng Tươi Sơ Chế", name_en: "Fresh Processed Ginger", name_ko: "신선 가공 생강", category: "gia-vi", price_vi: "Hàng xuất khẩu/Sỉ số lượng lớn", price_en: "Export / Wholesale bulk volume", price_ko: "수출용 / 대량 도매", description_vi: "Gừng già đủ tuổi, làm sạch, phân loại đều, chuyên xuất khẩu Nhật Bản, Hàn Quốc.", description_en: "Mature ginger, thoroughly washed, evenly graded, specialized for Japan and Korea.", description_ko: "잘 익은 노령 생강을 깨끗이 세척하고 균일하게 선별하여 일본 및 한국 수출에 특화되었습니다.", image: "https://placehold.co/400x300?text=Ginger+Apro" },
+                        { id: 2, name_vi: "Ớt Chỉ Thiên Đóng Thùng", name_en: "Chili Peppers in Foam Boxes", name_ko: "박스 포장 하늘초 고추", category: "gia-vi", price_vi: "Hàng xuất khẩu/Sỉ số lượng lớn", price_en: "Export / Wholesale bulk volume", price_ko: "수출용 / 대량 도매", description_vi: "Ớt đỏ tươi, cay nồng, chọn lọc kỹ càng, đóng gói thùng xốp đi các nước châu Á.", description_en: "Bright red chili, intensely spicy, meticulously selected, packed in foam boxes for Asian markets.", description_ko: "강렬하게 매운 신선한 홍고추를 엄격히 선별하여 아시아 시장 수출용 스티로폼 박스에 포장합니다.", image: "https://placehold.co/400x300?text=Chili+Apro" },
+                        { id: 3, name_vi: "Cà Rốt Hải Dương", name_en: "Hai Duong Carrots", name_ko: "하이즈엉 당근", category: "cu-qua", price_vi: "Hàng xuất khẩu/Sỉ số lượng lớn", price_en: "Export / Wholesale bulk volume", price_ko: "수출용 / 대량 도매", description_vi: "Cà rốt tươi ngọt bọc màng hoặc đóng gói rổ lưới xuất khẩu, củ thuôn đẹp.", description_en: "Sweet fresh carrots wrapped in film or packed in export mesh baskets, perfectly shaped.", description_ko: "랩으로 포장하거나 수출용 메쉬 바스켓에 담은 신선하고 달콤하며 모양이 예쁜 당근입니다.", image: "https://placehold.co/400x300?text=Carrot+Apro" },
+                        { id: 4, name_vi: "Chanh Dây (Chanh Leo)", name_en: "Fresh Passion Fruit", name_ko: "신선한 백향과 (패션프루트)", category: "trai-cay", price_vi: "Hàng xuất khẩu/Sỉ số lượng lớn", price_en: "Export / Wholesale bulk volume", price_ko: "수출용 / 대량 도매", description_vi: "Chanh dây vỏ láng bóng, dịch quả đặc thơm, cung ứng số lượng lớn đi Dubai, Quata.", description_en: "Glossy purple skin, thick and aromatic pulp, supplied in bulk to Dubai and Qatar.", description_ko: "매끄러운 껍질과 진하고 향긋한 과육을 가진 백향과로 두바이와 카타르 등에 대량 공급됩니다.", image: "https://placehold.co/400x300?text=Passion+Fruit+Apro" }
                     ];
                     displayProducts(productsData);
                 });
@@ -238,19 +237,17 @@
             const grid = document.getElementById('productGrid');
             grid.innerHTML = "";
 
-            // Lấy ngôn ngữ hiện tại đang được chọn từ biến toàn cục trong lang.js (mặc định là 'vi' nếu chưa sẵn sàng)
             const currentLang = (typeof currentLanguage !== 'undefined') ? currentLanguage : 'vi';
 
             if(productsList.length === 0) {
                 let loadingText = "Đang tải dữ liệu...";
                 if(currentLang === 'en') loadingText = "Loading products...";
-                if(currentLang === 'zh') loadingText = "正在加载产品...";
+                if(currentLang === 'ko') loadingText = "제품을 불러오는 중...";
                 grid.innerHTML = `<p style="text-align:center; grid-column: 1/-1; color: #64748b;">${loadingText}</p>`;
                 return;
             }
 
             productsList.forEach(product => {
-                // Đọc đúng trường ngôn ngữ, nếu không có thì fallback về Tiếng Việt
                 const pName = product[`name_${currentLang}`] || product['name_vi'] || product['name'] || '';
                 const pDesc = product[`description_${currentLang}`] || product['description_vi'] || product['description'] || '';
                 const pPrice = product[`price_${currentLang}`] || product['price_vi'] || product['price'] || '';
@@ -275,7 +272,6 @@
             const buttons = document.querySelectorAll('.tab-btn');
             buttons.forEach(btn => btn.classList.remove('active'));
             
-            // Xử lý an toàn event mục tiêu
             if (window.event && window.event.target) {
                 window.event.target.classList.add('active');
             } else if (event && event.target) {
