@@ -114,13 +114,13 @@ try:
             "category": final_category,
             "name_vi": str(row.get('name_vi', '')).strip(),
             "name_en": str(row.get('name_en', '')).strip(),
-            "name_zh": str(row.get('name_zh', '')).strip(),
+            "name_ko": str(row.get('name_ko', '')).strip(),
             "description_vi": str(row.get('description_vi', '')).strip(),
             "description_en": str(row.get('description_en', '')).strip(),
-            "description_zh": str(row.get('description_zh', '')).strip(),
+            "description_ko": str(row.get('description_ko', '')).strip(),
             "price_vi": str(row.get('price_vi', '')).strip(),
             "price_en": str(row.get('price_en', '')).strip(),
-            "price_zh": str(row.get('price_zh', '')).strip(),
+            "price_ko": str(row.get('price_ko', '')).strip(),
             "image": image_json_path
         }
         products_list.append(product_item)
