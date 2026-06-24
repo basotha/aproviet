@@ -474,3 +474,50 @@ footer {
         margin: 10px 0;
     }
 }
+/* Tối ưu riêng cho Menu gọn hơn trên thiết bị di động */
+@media (max-width: 768px) {
+    /* Thu nhỏ khoảng cách đệm của Header */
+    header {
+        padding: 6px 12px !important; /* Giảm độ dày từ trên xuống dưới */
+    }
+
+    /* Thu hẹp khoảng cách giữa Logo, các nút cờ và nút Báo giá */
+    .navbar {
+        gap: 8px !important;
+    }
+
+    /* Co nhỏ kích thước chữ và Logo */
+    .logo {
+        font-size: 0.9rem !important; /* Chữ APRO VIỆT NAM nhỏ lại một chút */
+    }
+    .logo-img {
+        max-height: 26px !important; /* Giới hạn chiều cao logo vừa vặn */
+        width: auto;
+    }
+
+    /* Thu nhỏ kích thước các lá cờ chuyển ngôn ngữ */
+    .lang-switcher {
+        gap: 3px !important;
+    }
+    .lang-btn {
+        padding: 1px !important;
+    }
+    .lang-btn img {
+        width: 22px !important; /* Giảm cỡ cờ xuống 22px nhìn cho thanh thoát */
+        height: auto;
+    }
+
+    /* Thu nhỏ nút Liên Hệ Báo Giá để không chiếm diện tích ngang */
+    .btn-contact {
+        padding: 6px 10px !important; /* Thu hẹp nút bấm */
+        font-size: 0.75rem !important; /* Giảm cỡ chữ của nút */
+    }
+    .btn-contact i {
+        margin-right: 2px !important; /* Sát icon lại gần chữ */
+    }
+
+    /* Cân đối lại các chữ điều hướng (Trang chủ, Sản phẩm...) nếu có hiển thị */
+    .nav-links a {
+        font-size: 0.8rem !important;
+    }
+}
