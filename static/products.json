@@ -2,9 +2,9 @@
     {
         "id": 1,
         "category": "gia-vi",
-        "name_vi": "Gừng Tươi Sơ Chế",
-        "name_en": "Fresh Processed Ginger",
-        "name_ko": "신선한 생강 (가공 처리됨)",
+        "name_vi": "Gừng khô  Sơ Chế",
+        "name_en": "Pre-processed dried ginger",
+        "name_ko": "미리 가공된 건조 생강",
         "description_vi": "Gừng già đủ tuổi, làm sạch...",
         "description_en": "Mature ginger, washed...",
         "description_ko": "잘 익은 생강을 깨끗이 씻은 것...",
@@ -82,5 +82,19 @@
         "price_en": "Export / Wholesale bulk volume",
         "price_ko": "大宗出口/批发",
         "image": "static/products/product_6.jpg"
+    },
+    {
+        "id": 7,
+        "category": "gia-vi",
+        "name_vi": "Ớt băm",
+        "name_en": "Chopped chili",
+        "name_ko": "다진 고추",
+        "description_vi": "Ớt băm sẵn và đạt tiêu chuẩn xuất khẩu",
+        "description_en": "Pre-chopped chili peppers, meeting export standards.",
+        "description_ko": "수출 기준을 충족하는 미리 잘게 썬 고추.",
+        "price_vi": "Hàng xuất khẩu / Sỉ số lượng lớn",
+        "price_en": "Export / Wholesale bulk volume",
+        "price_ko": "大宗出口/批发",
+        "image": "static/products/product_7.jpg"
     }
 ]
