@@ -40,5 +40,19 @@
         "price_en": "Export / Wholesale bulk volume",
         "price_zh": "大宗出口/批发",
         "image": "static/products/product_3.jpg"
+    },
+    {
+        "id": 4,
+        "category": "trai-cay",
+        "name_vi": "Chanh Dây",
+        "name_en": "Passion fruit",
+        "name_zh": "百香果",
+        "description_vi": "Chanh dây (chanh leo) là loại trái cây nhiệt đới thơm ngon, giàu vitamin.",
+        "description_en": "Passion fruit is a delicious, vitamin-rich tropical fruit.",
+        "description_zh": "百香果是一种美味且富含维生素的热带水果。",
+        "price_vi": "Hàng xuất khẩu / Sỉ số lượng lớn",
+        "price_en": "Export / Wholesale bulk volume",
+        "price_zh": "大宗出口/批发",
+        "image": "static/products/product_4.jpg"
     }
 ]
